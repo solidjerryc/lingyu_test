@@ -10,6 +10,7 @@
 
     import scipy
     import numpy as np
+    import scipy.ndimage
     import multiprocessing
 
     kernal = np.array([1]*49).reshape((7,7))
