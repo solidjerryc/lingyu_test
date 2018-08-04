@@ -116,5 +116,5 @@ if __name__=='__main__':
     ascent = np.array(np.random.randint(1,11,(1000,1000)),dtype=np.int16)*10 #random matrix
     a=Neighbourhood(ascent)
     b=a.lalalala2()
-    c=a.lalalala()
+    print(a.getClasses())
     
